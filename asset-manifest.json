@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bethysite/static/css/main.073c9b0a.css",
-    "main.js": "/bethysite/static/js/main.53de79ed.js",
+    "main.css": "/bethysite/static/css/main.8789de4f.css",
+    "main.js": "/bethysite/static/js/main.072e09c9.js",
     "static/js/787.37a186aa.chunk.js": "/bethysite/static/js/787.37a186aa.chunk.js",
-    "static/media/logo.svg": "/bethysite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/magicball.jpg": "/bethysite/static/media/magicball.97af013c275805ad5f3d.jpg",
     "index.html": "/bethysite/index.html",
-    "main.073c9b0a.css.map": "/bethysite/static/css/main.073c9b0a.css.map",
-    "main.53de79ed.js.map": "/bethysite/static/js/main.53de79ed.js.map",
+    "main.8789de4f.css.map": "/bethysite/static/css/main.8789de4f.css.map",
+    "main.072e09c9.js.map": "/bethysite/static/js/main.072e09c9.js.map",
     "787.37a186aa.chunk.js.map": "/bethysite/static/js/787.37a186aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.53de79ed.js"
+    "static/css/main.8789de4f.css",
+    "static/js/main.072e09c9.js"
   ]
 }
