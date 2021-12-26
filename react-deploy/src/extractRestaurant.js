@@ -141,7 +141,7 @@ function JsonDataDisplay() {
     },
     {
         "num": 15,
-        "restaurantName": "Meshuggah CafŽ",
+        "restaurantName": "Meshuggah Cafe",
         "address": "6269 Delmar Blvd",
         "websiteLink": "https://www.meshuggahcafestl.com/",
         "phoneNumber": "314-726-5662",
@@ -205,7 +205,7 @@ function JsonDataDisplay() {
     },
     {
         "num": 23,
-        "restaurantName": "Thai Country CafŽ ",
+        "restaurantName": "Thai Country Cafe",
         "address": "6223 Delmar Blvd",
         "websiteLink": "https://thaicountrycafe.us/",
         "phoneNumber": "314-862-0787",
@@ -213,7 +213,7 @@ function JsonDataDisplay() {
     },
     {
         "num": 24,
-        "restaurantName": "Thai Gai Yang CafŽ",
+        "restaurantName": "Thai Gai Yang Cafe",
         "address": "6250 Delmar Blvd",
         "websiteLink": "http://places.singleplatform.com/thai-gai-yang-cafe/menu",
         "phoneNumber": "314-862-4400",
