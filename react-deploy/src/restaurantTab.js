@@ -1,6 +1,7 @@
 import React from "react";
 import Draggable from 'react-draggable';
 import './restaurantTab.css';
+import GenerateRestaurant from './extractRestaurant';
 
 const RestaurantWindow = () => (
     <Draggable>
@@ -13,7 +14,8 @@ const RestaurantWindow = () => (
         <p>Welcome!</p>
         <p>Here you can generate somewhere to go on a date!</p>
         <p>Simply click the button below.</p>
-        <button>Choose Restaurant</button>
+        {/* <button>Choose Restaurant</button> */}
+        <GenerateRestaurant/>
     </div>
     </Draggable>
 );
