@@ -43,7 +43,14 @@ class GenerateRestaurant extends React.Component {
   }
   export default GenerateRestaurant;
 
+  function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+  }
+
   function JsonDataDisplay(){
+     
     const DisplayData=restaurantData.map(
         (info)=>{
             return(
@@ -55,7 +62,6 @@ class GenerateRestaurant extends React.Component {
             )
         }
     )
- 
     return(
         <div>
             <table class="table table-striped">
@@ -66,14 +72,10 @@ class GenerateRestaurant extends React.Component {
                     <th>Tiff's Pick: </th>
                     </tr>
                 </thead>
-                <tbody>
-                 
-                    
-                    {DisplayData}
-                    
+                <tbody>                    
+                    {DisplayData}                    
                 </tbody>
-            </table>
-             
+            </table>            
         </div>
     )
  }
