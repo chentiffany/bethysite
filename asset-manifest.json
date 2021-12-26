@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bethysite/static/css/main.8789de4f.css",
-    "main.js": "/bethysite/static/js/main.072e09c9.js",
+    "main.css": "/bethysite/static/css/main.43f26fe0.css",
+    "main.js": "/bethysite/static/js/main.9ac07855.js",
     "static/js/787.37a186aa.chunk.js": "/bethysite/static/js/787.37a186aa.chunk.js",
     "static/media/magicball.jpg": "/bethysite/static/media/magicball.97af013c275805ad5f3d.jpg",
     "index.html": "/bethysite/index.html",
-    "main.8789de4f.css.map": "/bethysite/static/css/main.8789de4f.css.map",
-    "main.072e09c9.js.map": "/bethysite/static/js/main.072e09c9.js.map",
+    "main.43f26fe0.css.map": "/bethysite/static/css/main.43f26fe0.css.map",
+    "main.9ac07855.js.map": "/bethysite/static/js/main.9ac07855.js.map",
     "787.37a186aa.chunk.js.map": "/bethysite/static/js/787.37a186aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8789de4f.css",
-    "static/js/main.072e09c9.js"
+    "static/css/main.43f26fe0.css",
+    "static/js/main.9ac07855.js"
   ]
 }
