@@ -31,3 +31,9 @@ p{
     font-size: 1rem;
     text-align: left;
 }
+#make-row{
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    font-size: larger;
+}

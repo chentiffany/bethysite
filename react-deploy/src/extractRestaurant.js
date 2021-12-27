@@ -13,7 +13,7 @@ class GenerateRestaurant extends React.Component {
         return (
             <div className="GenerateRestaurant">
                 <button onClick={this.onButtonClickHandler}>Enter</button>
-                {this.state.showMessage && <div id="getRestaurant">where to eat
+                {this.state.showMessage && <div id="getRestaurant">
                     <JsonDataDisplay />
                 </div>}
             </div>
@@ -418,12 +418,33 @@ function JsonDataDisplay() {
         "websiteLink": "https://crushed-red.com/locations/",
         "phoneNumber": "314-725-8007",
         "tiffsPick": "Anything with Tofu"
-    }];
+    },{
+        "num": 50,
+        "restaurantName": "Thai Country Cafe",
+        "address": "6223 Delmar Blvd",
+        "websiteLink": "https://thaicountrycafe.us/",
+        "phoneNumber": "314-862-0787",
+        "tiffsPick": "Kaho Lard Peanut Sauce with Tofu"
+    },{
+        "num": 51,
+        "restaurantName": "Thai Country Cafe",
+        "address": "6223 Delmar Blvd",
+        "websiteLink": "https://thaicountrycafe.us/",
+        "phoneNumber": "314-862-0787",
+        "tiffsPick": "Kaho Lard Peanut Sauce with Tofu"
+    },{
+        "num": 52,
+        "restaurantName": "Thai Country Cafe",
+        "address": "6223 Delmar Blvd",
+        "websiteLink": "https://thaicountrycafe.us/",
+        "phoneNumber": "314-862-0787",
+        "tiffsPick": "Kaho Lard Peanut Sauce with Tofu"
+    },];
     return (
         <>
             {
                 array
-                    .filter(task => task.num === getRandomNumberBetween(0, 50))
+                    .filter(task => task.num === getRandomNumberBetween(0, 53))
                     .map(task => <p key={task.num}>{task.restaurantName}</p>)
             }
         </>
